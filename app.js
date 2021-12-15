@@ -68,8 +68,8 @@ function playRound(playerSelection, computerSelection) {
         computerScore++;
     }
     else if (playerSelection == "paper" && computerSelection == "rock") {
-        console.log(`You Lose! ${computerSelection} beats ${playerSelection}`);
-        computerScore++;
+        console.log(`You Won! ${computerSelection} beats ${playerSelection}`);
+        playerScore++;
     }
 
     else {
